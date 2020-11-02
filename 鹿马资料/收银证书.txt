@@ -1,0 +1,48 @@
+keytool -genkey -alias testalia -keyalg RSA -keysize 2048 -validity 36500 -keystore code.keystore
+• testalia是证书别名，可修改为自己想设置的字符，建议使用英文字母和数字
+• code.keystore是证书文件名称，可修改为自己想设置的文件名称   D:\收银\code.keystore
+
+
+
+set PATH=%PATH%;"C:\Users\Public\Libraries\bin"
+
+
+您的密钥库包含 1 个条目
+
+别名: testalia
+创建日期: 2020-10-17
+条目类型: PrivateKeyEntry
+证书链长度: 1
+证书[1]:
+所有者: CN=luma, OU=luma, O=[Unkonwn], L=昌, ST=东湖区, C=360100000000
+发布者: CN=luma, OU=luma, O=[Unkonwn], L=昌, ST=东湖区, C=360100000000
+序列号: f573af4
+有效期为 Sat Oct 17 12:55:09 CST 2020 至 Mon Sep 23 12:55:09 CST 2120
+证书指纹:
+         MD5:  27:27:57:49:66:EF:79:C4:AF:25:09:76:09:7A:AB:47
+         SHA1: DD:C4:29:CC:9E:C5:51:67:E3:12:2B:2C:5E:B3:4F:3F:14:6C:92:D6
+         SHA256: 64:C9:09:4D:43:91:67:E7:43:46:F4:2A:18:F6:46:91:87:3E:B5:9F:2D:B0:A4:4E:98:BD:9F:67:1F:1D:D0:AE
+签名算法名称: SHA256withRSA
+主体公共密钥算法: 2048 位 RSA 密钥
+版本: 3
+
+扩展:
+
+#1: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 00 82 87 90 97 2C B3 91   98 27 6A CA EB B3 A3 2F  .....,...'j..../
+0010: F3 E7 EB 1A                                        ....
+]
+]
+
+
+跨域
+"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-web-security --user-data-dir=C:\MyChromeDevUserData，--user-data-dir
+
+git地址
+http://rungit.jxdsy.cn:10000/
+
+路径小程序http://rungit.jxdsy.cn:10000/root/luma_xcx.git
+app：http://rungit.jxdsy.cn:10000/root/luma_app.git
+商家助手：http://rungit.jxdsy.cn:10000/xys/lumastoreapp.git

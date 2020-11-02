@@ -1,0 +1,1029 @@
+uni-page-body {  
+    // background-color:red;  
+    height: 350upx;  
+	position: fixed;
+   
+}
+body{
+	
+	height: 350upx;
+	// overflow: hidden;
+	position: fixed;
+}
+.container {
+	width: 100%;
+	height: 35upx;
+	overflow: hidden;
+	// background-color: #f46f15;
+	// padding: 10upx;
+	font-size: 7upx;
+	line-height: 12upx;
+	display: flex;
+	text-align: center;
+	.logo {
+		width: 113upx;
+		height: 35upx;
+		background-color: #f64f15;
+		position: absolute;
+		image {
+			width: 80upx;
+			height: 20upx;
+			line-height: 20upx;
+			margin-top: 7upx;
+		}
+	}
+	.btna {
+		color: #f64f15 !important;
+
+		border-bottom: 2upx solid #f64f15;
+	}
+
+	.intro {
+		margin: 0 20upx;
+		font-size: 12upx;
+		padding: 3upx 0;
+		color: #bdbdbd;
+	}
+}
+
+.container_1 {
+	width: 100%;
+	height:360upx;
+	background-color: rgb(240, 240, 240);
+	// opacity: 0.3;
+	padding: 8upx 8upx 30upx 8upx;
+	box-sizing: border-box;
+
+	.container_list {
+		display: flex;
+		.particulars {
+			width: 290upx;
+			height: 340upx;
+			border-radius: 2upx;
+			// border: 2upx solid red;
+			.particulars_1 {
+				    text-align: center;
+				    line-height: 23upx;
+				    font-size:15upx;
+				    color: #f64f15;
+				
+				
+				
+				width: 290upx;
+				height: 25upx;
+
+				// background: #ffffff;
+				box-shadow: 0upx 1upx 2upx 0upx rgba(0, 0, 0, 0.12);
+				border-radius: 12upx;
+				margin-bottom: 10upx;
+			}
+			.particulars_2 {
+				width: 290upx;
+				height: 256upx;
+				background: #ffffff;
+				    // overflow: scroll;
+					border-top-left-radius: 2upx;
+					border-top-right-radius: 2upx;
+
+				.particulars_2_1 {
+					width: 100%;
+					height: 32upx;
+					line-height: 32upx;
+					box-shadow: 0px 15px 10px -18px #000;
+					.particulars_2_1_1 {
+						width: 46upx;
+						padding: 0 1upx;
+						font-weight: bold;
+						text-align: center;
+					}
+				}
+				.particulars_code {
+					height: 224upx;
+					overflow: scroll;
+
+					.particulars_2_2 {
+						width: 100%;
+						height: 32upx;
+						line-height: 32upx;
+						border-bottom: 0.5upx solid #bdbdbd;
+
+						.particulars_2_2_1 {
+							width:47upx;
+							padding: 0 1upx;
+							font-weight: bold;
+							text-align: center;
+							line-height: 35upx;
+							 
+						}
+					}
+				}
+			}
+			.particulars_3 {
+				height:50upx;
+				background-color: #ffffff;
+				box-shadow: inset 0px 15px 10px -18px #000;
+				margin: auto;
+				display: flex;
+				border-bottom-left-radius: 2upx;
+				border-bottom-right-radius: 2upx;
+				// line-height: 20upx;
+				.particulars_3_1 {
+					line-height: 0;
+					font-size: 0;
+					margin: 0 2upx;
+
+					image {
+						width: 60upx;
+						height: 20upx;
+					}
+				}
+			}
+		}
+		.product_name {
+			width: 450upx;
+			height: 340upx;
+			margin-left: 5upx;
+			// border: 2upx solid yellow;
+
+			background: #ffffff;
+			box-shadow: 0px 1px 2upx 0px rgba(0, 0, 0, 0.12);
+			border-radius: 2upx;
+
+			.product_name_1 {
+				display: flex;
+				height: 290upx;
+				.product_class {
+					flex: 8;
+					// border: 2upx solid red;
+					overflow: scroll;
+				}
+				.product_check {
+					flex: 1;
+					text-align: center;
+				}
+			}
+			.product_name_2 {
+				.particulars_3 {
+					height: 34upx;
+					background-color: #ffffff;
+					box-shadow: inset 0px 15px 10px -18px #000;
+					// margin: auto;
+					display: flex;
+
+					.particulars_3_1 {
+						line-height: 0;
+						font-size: 0;
+						margin: 0 2upx;
+						padding-top: 4upx;
+
+						image {
+							width: 60upx;
+							height: 20upx;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+.inputbox{
+	display: flex;
+	background:rgba(239,239,239,1);
+			border-radius:2upx;
+			
+			.imgs{
+				width: 13upx;
+				height: 13upx;
+			}
+				
+}
+
+
+
+
+
+
+
+
+.m-t {
+	margin-top: 16upx;
+}
+.ishaotu {
+	height: auto !important;
+	margin-bottom: 40upx;
+	border-radius: 14upx !important ;
+}
+
+.list_cel_item_foot {
+	padding: 24upx;
+	.item_foot_title {
+		font-size: 28upx;
+		font-family: PingFang SC;
+		font-weight: 500;
+		color: rgba(0, 0, 0, 1);
+	}
+}
+//搜索按钮
+.searchbox {
+	padding: 0 30rpx;
+	padding-top: 90upx;
+	.fanhui {
+		width: 60upx;
+		height: 60upx;
+	}
+	.inputbxo {
+		position: relative;
+		background: #fff;
+		border-radius: 44upx;
+		height: 60upx;
+		.se_icon {
+			position: absolute;
+			left: 24upx;
+			top: 16upx;
+			width: 30upx;
+			height: 30upx;
+		}
+		.inputs {
+			padding-left: 65upx;
+			font-size: 26upx;
+		}
+		.se_submit {
+			width: 138upx;
+			height: 60upx;
+			line-height: 60upx;
+			margin-right: 20upx;
+			background: linear-gradient(90deg, rgba(255, 53, 86, 1), rgba(255, 105, 0, 1));
+			border-radius: 26upx;
+			font-size: 26upx;
+			text-align: center;
+			color: #ffffff;
+		}
+	}
+}
+
+//点餐页面
+.takeout_page {
+	//padding:0 24rpx;
+	.topheader {
+		//height: 200upx;
+		height: 268upx;
+		//height: 250upx;
+		width: 100%;
+		//background:linear-gradient(90deg,rgba(255,53,86,1),rgba(255,105,0,1));
+		background-size: cover;
+		box-shadow: 0px 10px 18px 2px rgba(91, 157, 251, 0.2);
+		background-position: center center;
+		position: relative;
+		.mobans {
+			background: rgba(0, 0, 0, 0.5);
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 268upx;
+		}
+	}
+
+	.storeinfos {
+		background: rgba(255, 255, 255, 1);
+		border-radius: 14upx;
+		padding: 20rpx;
+		position: relative;
+		margin-left: 24rpx;
+		margin-right: 24rpx;
+		margin-top: -80upx;
+		box-shadow: 0px -2px 8px 1px rgba(0, 0, 0, 0.16);
+		.store_logo {
+			.title {
+				height: 34upx;
+				font-size: 36upx;
+				font-family: PingFang SC;
+				font-weight: bold;
+				color: rgba(51, 51, 51, 1);
+				display: initial;
+			}
+		}
+		.imgsf {
+			width: 160upx;
+			height: 160upx;
+			border-radius: 10upx;
+			border: 1px solid #ccc;
+		}
+		.quanboxs {
+			position: absolute;
+			bottom: 18upx;
+			width: 90%;
+		}
+		.youhuiquan {
+			width: 100%;
+		}
+
+		.youhuiquan .quan {
+			background: #ffffff;
+			color: #f64f15;
+			border: 1px solid #f64f15;
+			min-width: 140upx;
+			height: 40upx;
+			padding: 3upx;
+			font-size: 24upx;
+			line-height: 40upx;
+			margin-right: 15rpx;
+			text-align: center;
+		}
+		.youhuiquan .jiantou {
+			.imgs {
+				width: 30upx;
+				height: 18upx;
+				opacity: 0.28;
+			}
+		}
+		.address {
+			font-size: 26upx;
+			font-weight: 600;
+			color: #999999;
+			padding-right: 40upx;
+		}
+	}
+}
+
+.main_container {
+	margin-top: 20upx;
+}
+
+/*选项卡*/
+.ta_menu_tab {
+	.ta_menu_tab_item {
+		background: #fff;
+		height: 90upx;
+		width: 100%;
+		border: 1px solid rgba(255, 105, 0, 1);
+
+		.img {
+			width: 36upx;
+			height: 38upx;
+			margin-right: 24upx;
+		}
+		.titles {
+			font-size: 34upx;
+			font-family: PingFang SC;
+
+			color: #f64f15;
+		}
+	}
+	.ta_menu_tab_item:nth-child(1) {
+		border-radius: 6upx 0upx 0upx 6upx;
+	}
+	.ta_menu_tab_item:nth-child(2) {
+		border-radius: 0upx 6upx 6upx 0upx;
+	}
+	.ta_menu_tab_item.active {
+		background: #f64f15;
+		border: 0px solid #fff;
+		.titles {
+			color: #fff;
+			font-weight: bold;
+		}
+	}
+}
+// 选项卡end
+
+$gudinhie: 100vh;
+.h55vhs {
+	height: 55vh !important;
+}
+//商品列表
+.ta_shoplist {
+	background: #fff;
+	margin-top: 24upx;
+	height: $gudinhie;
+	overflow: hidden;
+	border-radius: 14upx;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+	$tabh: 80upx;
+	.shoplist_tab {
+		height: $tabh;
+		border-bottom: 1upx solid #f5f1f1;
+		//margin: 0 24upx;
+		.tabitem {
+			min-width: 80upx;
+			line-height: $tabh;
+			font-size: 34upx;
+			font-family: PingFang SC;
+
+			color: #666;
+			text-align: center;
+		}
+		.tabitem .conname {
+			margin-right: 40upx;
+			margin-left: 40upx;
+			font-size: 34upx;
+		}
+		.tabitem.active {
+			color: #f64f15;
+			font-family: PingFang SC;
+			font-weight: bold;
+
+			.conname {
+				border-bottom: 4upx solid #f64f15;
+			}
+
+			//box-shadow:0px 10px 18px 2px rgba(91,157,251,0.2);
+			//border-bottom:2px  solid #f64f15;
+			//border-image:linear-gradient(99deg,rgba(255,53,86,1),rgba(255,105,0,1));
+		}
+	}
+	.shopmian {
+		//padding-top: 24upx;
+
+		.shop_l {
+			height: $gudinhie;
+			overflow-y: auto;
+			width: 180upx;
+			padding-bottom: 160upx;
+			background: #f8f8f8;
+			.category_item {
+				color: #666666;
+				height: 80upx;
+				line-height: 80upx;
+				font-size: 28upx;
+				box-sizing: border-box;
+				padding: 20upx 0 20upx 0;
+				margin: 20upx 0 20upx 0;
+			}
+			.category_item.active {
+				color: #666;
+				box-sizing: border-box;
+				font-size: 30upx;
+				font-family: PingFang SC;
+				font-weight: bold;
+				color: #ffffff;
+				background: #f64f15;
+			}
+		}
+		.shop_r {
+			height: $gudinhie;
+			overflow-y: auto;
+			width: 77%;
+			padding: 20upx 20upx 160upx 20upx;
+			.shop_card_item {
+				margin-bottom: 34upx;
+				.imgs {
+					width: 180upx;
+					height: 180upx;
+					margin-right: 23upx;
+					image {
+						width: 180upx;
+						height: 180upx;
+					}
+				}
+				.shop_title {
+					font-size: 33upx;
+					font-weight: 650;
+					font-family: PingFang SC;
+					color: #333333;
+				}
+				.theIntegral {
+					color: #f64f15;
+					border: 1px solid #f64f15;
+					border-radius: 6upx;
+					width: 100%;
+					height: 100%;
+				}
+				.tezhe {
+					.txs {
+						display: inline-block;
+						margin-right: 20upx;
+						border: 1upx solid rgba(229, 229, 229, 1);
+
+						text-align: center;
+						min-width: 64upx;
+						height: 34upx;
+						line-height: 34upx;
+						font-size: 24upx;
+						font-family: PingFang SC;
+						font-weight: 500;
+						color: rgba(153, 153, 153, 1);
+						//line-height:40upx;
+						box-sizing: border-box;
+					}
+				}
+				.xiaoliang {
+					height: 23upx;
+					font-size: 28upx;
+					font-family: PingFang SC;
+					font-weight: 500;
+					color: rgba(153, 153, 153, 1);
+					//line-height:40upx;
+					.txs {
+						margin-right: 20upx;
+					}
+				}
+				.jiesuanf {
+					margin-top: 10upx;
+				}
+
+				//标签
+				.tagisbox {
+					.tagisboxl {
+						width: 119upx;
+						height: 35upx;
+						line-height: 35upx;
+						background: rgba(255, 105, 0, 1);
+						border-radius: 4px 0px 0px 4px;
+						text-align: center;
+						font-size: 24upx;
+						color: rgba(254, 254, 254, 1);
+					}
+					.tagisboxr {
+						width: 124upx;
+						height: 35upx;
+						line-height: 35upx;
+						text-align: center;
+						background: rgba(255, 255, 255, 1);
+						border: 1upx solid rgba(255, 105, 0, 1);
+						border-radius: 0px 4upx 4upx 0px;
+						font-size: 24upx;
+						color: #f64f15;
+					}
+				}
+
+				.prices {
+					font-size: 22upx;
+					font-family: PingFang SC;
+					font-weight: bold;
+					color: #f64f15;
+					margin-left: -2upx;
+					.numsun {
+						font-size: 38upx;
+					}
+				}
+			}
+		}
+	}
+}
+
+.vanvasboxs{
+	opacity: 0;
+	// display: no
+    z-index: -20;
+}
+
+.bany{
+	display:block;
+}
+.none{
+	display: none;
+}
+
+
+
+
+
+.xieyitags {
+	color: #1890ff;
+	display: inline-block !important;
+}
+
+.uni-tip-content {
+	text-align: left !important;
+	display: inline-block !important;
+}
+
+/* 提示窗口 */
+.uni-tip {
+	/* #ifndef APP-NVUE */
+	display: flex;
+	flex-direction: column;
+	/* #endif */
+	// padding: 15px;
+	//width:579upx;
+	width: 200upx;
+	height: 280upx;
+
+	// background-color: #fff;
+	border-radius: 10px;
+}
+.uni-tips {
+	/* #ifndef APP-NVUE */
+	display: flex;
+	flex-direction: column;
+	/* #endif */
+
+	width: 300upx;
+	height: 270upx;
+
+	border-radius: 10px;
+}
+
+.uni-tip-title {
+	text-align: center;
+	//font-weight: bold;
+	//font-size: 16px;
+	//color: #333;
+	margin-bottom: 40upx;
+	font-size: 12upx;
+	font-family: PingFang SC;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+}
+
+.uni-tip-content {
+	// padding: 15px;
+	font-size: 14px;
+	color: #666;
+}
+
+.uni-tip-group-button {
+	/* #ifndef APP-NVUE */
+	display: flex;
+	/* #endif */
+	flex-direction: row;
+	margin-top: 20px;
+}
+
+.uni-tip-button {
+	flex: 1;
+	text-align: center;
+	font-size: 14px;
+	font-family: PingFang SC;
+	font-weight: bold;
+	color: #3b4144;
+
+	border-top: 3upx solid rgba(229, 229, 229, 1);
+	height: 60upx;
+	line-height: 80upx;
+}
+
+
+
+
+
+
+
+
+
+
+
+//订单加减 公用
+.orxuanliang {
+	width:50upx;
+	margin: auto;
+	.imasf {
+		width: 12upx;
+		height: 12upx;
+	}
+	.banys{
+		z-index: -1;
+	}
+	.sumnum {
+		width: 15upx;
+		font-size:5upx;
+		font-family: PingFang SC;
+		font-weight: bold;
+		color: rgba(0, 0, 0, 1);
+		margin: 0 4upx;
+	}
+}
+
+/*底部购物车*/
+$cardh: 98upx;
+.ShoppingCart {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100vw;
+	height: $cardh;
+	box-shadow: 0upx 6upx 10upx 0upx rgba(0, 0, 0, 0.02);
+	.cart_l {
+		height: $cardh;
+		line-height: $cardh;
+		background: #353535;
+		box-shadow: 0upx 6upx 10upx 0upx rgba(0, 0, 0, 0.02);
+		.cart_img {
+			margin-left: 27upx;
+		}
+		.cart_img,
+		.cart_img .img {
+			position: relative;
+			//width:63upx;
+			//height:63upx;
+
+			width: 63upx;
+			height: 52upx;
+
+			.min_tag {
+				position: absolute;
+				top: -16upx;
+				right: -16upx;
+				background: #fb5341;
+				border: 1px solid #fff;
+				border-radius: 50%;
+				color: #fff;
+				width: 40upx;
+				height: 40upx;
+				font-size: 24upx;
+			}
+		}
+		.cart_price {
+			margin-left: 20upx;
+			color: #fff;
+			font-size: 28upx;
+			font-weight: bold;
+			font-family: PingFang SC;
+
+			.onprice {
+				margin-left: 20upx;
+				margin-right: 20upx;
+				color: #bdbdbd;
+				font-size: 24upx;
+				text-decoration: line-through;
+			}
+
+			.sums {
+				font-size: 34upx;
+			}
+			.yhuije {
+				color: #ffffff;
+				font-size: 24upx;
+			}
+		}
+	}
+	.cart_r {
+		width: 40%;
+		text-align: center;
+	}
+	.cart_r .tosubmit {
+		font-size: 32upx;
+		height: $cardh;
+		line-height: $cardh;
+		color: #fff;
+	}
+
+	.tosubmit {
+		width: 50%;
+		background: #f64f15;
+	}
+	.tosubmit2 {
+		font-size: 32upx;
+		height: $cardh;
+		line-height: $cardh;
+		color: #fff;
+		width: 100%;
+		background: #f64f15;
+	}
+	.jkzf {
+		// background:linear-gradient(90deg,rgba(255,53,86,1),rgba(255,105,0,1));
+		// box-shadow:0upx 10upx 18upx 2upx rgba(91,157,251,0.2);
+
+		background: #fd521e !important;
+		color: rgba(255, 255, 255, 1) !important;
+	}
+}
+
+.onShoppingCart {
+	.cart_l {
+		background: #353535;
+	}
+	.cart_l .cart_price {
+		color: #cbcbcb;
+	}
+	.cart_r .tosubmit {
+		background: #474747;
+		color: #82807e;
+	}
+}
+/*购物车end*/
+
+.page-content {
+	position: relative;
+	width: 100%;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+	background-color: #fff;
+	font-size: 14px;
+}
+.title {
+	flex: none;
+	position: relative;
+	width: 100%;
+	height: 40px;
+	font-size: 16px;
+	padding-left: 20px;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+	align-items: center;
+}
+.btn-group {
+	flex: 1 1 auto;
+	position: relative;
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	background-color: #eee;
+	font-size: 14px;
+	.btn {
+		height: 40px;
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: center;
+		align-items: center;
+		background-color: #f9f9f9;
+		border-radius: 5px;
+		padding: 0 10px;
+		margin: 10px;
+		overflow: hidden;
+		box-shadow: 1px 2px 3px rgba(100, 100, 100, 0.5);
+	}
+}
+
+//规格弹窗
+.mycontent {
+	position: relative;
+	height: 100%;
+	width: 100vw;
+	overflow: scroll;
+	padding: 24upx;
+
+	.close_icon {
+		width: 40upx;
+		height: 40upx;
+		position: absolute;
+		right: 24upx;
+		top: 24upx;
+	}
+
+	.specs_t {
+		.imgslogo {
+			width: 198upx;
+			height: 168upx;
+			margin-right: 20upx;
+		}
+		.text_infos {
+			.ggtitle {
+				font-size: 32upx;
+				font-family: PingFang SC;
+				font-weight: bold;
+				color: rgba(51, 51, 51, 1);
+				line-height: 40upx;
+				padding-right: 44upx;
+
+				height: 80upx;
+			}
+			.pricegg {
+				font-size: 28upx;
+				font-family: PingFang SC;
+				font-weight: 500;
+				color: rgba(255, 105, 0, 1);
+				line-height: 36upx;
+				margin-top: 10upx;
+			}
+			.yixuan {
+				font-size: 28upx;
+				font-family: PingFang SC;
+				font-weight: 500;
+				color: rgba(150, 150, 150, 1);
+				line-height: 36upx;
+				margin-top: 10upx;
+			}
+		}
+	}
+	//规格
+	.specs_item1 {
+		margin-top: 30upx;
+		.tt {
+			margin-bottom: 15upx;
+			font-size: 28upx;
+			font-weight: 500;
+			color: rgba(26, 26, 26, 1);
+		}
+
+		.gg_itevg {
+			display: inline-block;
+			text-align: center;
+			min-width: 146upx;
+			height: 56upx;
+			line-height: 56upx;
+
+			background: rgba(241, 243, 238, 1);
+			border-radius: 3upx;
+			color: #1a1a1a;
+			font-size: 28upx;
+			margin-right: 20upx;
+		}
+		.gg_itevg.active {
+			background: rgba(255, 105, 0, 1);
+			color: #fff;
+		}
+	}
+	//计算个数
+	.purchasesum {
+		margin: 40upx 0;
+		.ttfsf {
+			font-size: 28upx;
+		}
+		.jiajian {
+			.imgd {
+				width: 44upx;
+				height: 44upx;
+			}
+			.ttfsf {
+				margin: 0 15upx;
+			}
+		}
+	}
+	//加入购物车
+	.addcartsd {
+		position: absolute;
+		width: 94%;
+		left: 3%;
+		bottom: 60upx;
+		background: #ff5001;
+		border-radius: 20upx 20upx 0upx 0upx;
+		color: #fff;
+
+		height: 88upx;
+		line-height: 88upx;
+		border-radius: 6upx;
+	}
+}
+
+.lu-popup-content {
+	border-radius: 12upx;
+	.ShoppingCart {
+		width: 100%;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+	}
+}
+
+//选择的购物车内容
+.mycontent1 {
+	padding: 24upx;
+	padding-top: 0;
+	overflow: hidden;
+	// 头部
+	.card_toph {
+		height: 98upx;
+		line-height: 98upx;
+		font-size: 34upx;
+		color: #333333;
+		border-bottom: 1px solid $fengexian;
+		.lajiton {
+			width: 30upx;
+			height: 30upx;
+			margin-right: 8upx;
+		}
+		.dels {
+			font-size: 30upx;
+		}
+	}
+
+	/*选中的商品购物车*/
+	.shop_cardbox {
+		height: 30vh;
+		overflow-y: auto;
+		.scard_item {
+			position: relative;
+			padding: 24upx 0;
+			border-bottom: 1px solid #e5e5e5;
+		}
+		.shopimgf {
+			width: 133upx;
+			height: 133upx;
+			margin-right: 30upx;
+		}
+
+		.msginfos .titles {
+			font-size: 34upx;
+		}
+		.itguig {
+			margin-top: 10upx;
+			font-size: 24upx;
+		}
+
+		.dels {
+			font-size: 30upx;
+		}
+		.itprice {
+			margin-top: 15upx;
+			font-size: 24upx;
+			color: rgba(255, 105, 0, 1);
+		}
+
+		.jiajians {
+			position: absolute;
+			bottom: 10upx;
+			right: 0;
+		}
+	}
+}

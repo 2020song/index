@@ -1,0 +1,13 @@
+正式：wx8f6be519f3a4fe72
+测试：wxeb61270e765bb8a9
+
+
+YT9265966610656
+
+
+18770001107
+123456
+
+
+git remote add origin  http://rungit.jxdsy.cn:10000/luma_group/luma_cashier.git
+git push -u origin master

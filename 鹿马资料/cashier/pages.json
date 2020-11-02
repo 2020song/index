@@ -1,0 +1,45 @@
+{
+	"pages": [{
+			"path" : "pages/login/login",
+			"style" : {
+				"navigationBarTitleText":"鹿马收银系统-登录"
+			}
+		},{
+			"path" : "pages/setPassword/setPassword",
+			"style" : {
+				"navigationBarTitleText":"修改登录密码"
+			}
+		},
+		{
+		"path": "pages/index/index",
+		"style": {
+			// "enablePullDownRefresh":true,
+			"navigationBarTitleText": "首页"
+			
+		}
+	},{
+		"path": "pages/tagglestore/tagglestore",
+		"style": {
+			// "enablePullDownRefresh":true,
+			"navigationBarTitleText": "切换门店"
+			
+		}
+	}
+	
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#C0C4CC",
+		"selectedColor": "#FF6900",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",		
+		"list": [
+		
+		]
+	}
+}

@@ -1,0 +1,204 @@
+"pages/index/index",首页
+
+"pages/index/switchcity/switchcity",切换城市
+
+"pages/index/seek/seek",搜索
+
+    "pages/index/free_zone/free_zone",免费购买
+
+    "pages/nearby/nearby",附近美食
+
+    "pages/optimization/optimization",优选商城
+
+    "pages/optimization/optimization_goodshop/optimization_goodshop",优选好店
+
+    "pages/user/user",我的
+
+    "pages/shopping_cart/shopping_cart",购物车
+
+    "pages/secondary_search/secondary_search"搜索出来的页面
+pages/personal/payment_code/payment_code 收款吗
+
+*******************************************************************************************
+        "shops/weidian/share_posters/share_posters",分享海报
+
+        "shops/weidian/evaluate_win/evaluate_win",评价成功
+
+        "shops/weidian/home_page_weidian/home_page_weidian",商城店铺详情页
+
+        "shops/weidian/certificate/certificate",商家证件资质
+
+        "shops/weidian/weidian_classify/weidian_classify",商品分类
+
+        "shops/weidian/weidian_details/weidian_details",商品详情
+
+        "order/weidianorder/weidian_affirm/weidian_affirm",确认订单商城
+
+        "order/weidianorder/weidianLine_item/weidianLine_item",订单详情商城
+
+        "order/weidianorder/pay_success_weidian/pay_success_weidian",支付成功商城
+
+        "order/weidianorder/weidianLine_list_user/weidianLine_list_user",我的订单商城用户
+
+        "order/weidianorder/evaluation_weidian/evaluation_weidian",发布评价商城
+
+        "order/weidianorder/sales_return/sales_return",申请退货退款商城
+
+        "order/weidianorder/check_logistics/check_logistics",查看物流
+
+        "order/eleorder/eleorder_affirm/eleorder_affirm",确认订单外卖
+
+        "order/eleorder/eleLine_item/eleLine_item",订单详情外卖状态
+
+        "order/eleorder/order_status_user/order_status_user",订单详情外卖
+
+        "order/eleorder/order_status_merchant/order_status_merchant",订单状态（商家）外卖
+
+        "order/eleorder/eleLine_list_user/eleLine_list_user",外卖订单用户
+
+        "order/eleorder/evaluation_ele/evaluation_ele",外卖评价
+
+        "order/eleorder/pay_success_ele/pay_success_ele",外卖支付成功
+
+        "shops/ele/ele",外卖店铺主页
+
+        "shops/ele/ele_recommend/ele_recommend",力荐好店
+
+        "shops/ele/ele_foodie/ele_foodie",好吃好喝
+
+        "hotel/hotel",酒店首页
+
+        "hotel/hotel_order/hotel_order",酒店订单
+
+        "hotel/footprint/footprint",足迹
+
+        "hotel/hotel_details/hotel_details",酒店店铺详情
+
+        "hotel/hotel_evaluation/hotel_evaluation",酒店评价
+
+        "hotel/submitting_this/submitting_this",酒店提交订单
+
+        "hotel/hotel_pay_success/hotel_pay_success",酒店支付成功
+
+        "hotel/hotel_order_details/hotel_order_details",酒店订单详情
+
+        "hotel/hotel_refunds/hotel_refunds",酒店申请退款
+
+        "hotel/hotel_seek/hotel_seek"酒店搜索
+
+****************************************************************************************
+        "friends_share/friends_share",邀请好友
+
+        "friends_share/promote_business_evm/promote_business_evm",推广商家二维码
+
+        "friends_share/partner_business_evm/partner_business_evm",推广合伙人二维码
+
+        "friends_share/call_friends/call_friends",召唤好友
+
+        "my_focus/my_focus",店铺关注
+        "advices/advices",消息中心
+
+        "transfer_record/transfer_record",转账记录
+
+        "transfer/transfer",转账
+
+        "transfer/transfer_succeed/transfer_succeed",转账成功
+
+        "transfer/transfer_friendList/transfer_friendList",转账过的好友
+
+        "withdraw/withdraw",佣金提现
+
+        "withdraw/withdraw_record/withdraw_record",提现记录
+
+        "withdraw/withdrawal_success/withdrawal_success",提现成功
+
+        "withdraw/bankCard_list/bankCard_list",我的银行卡
+
+        "withdraw/bankCard/bankCard",添加银行卡
+
+        "Ishop/Ishop",我的店铺
+
+        "Ishop/commission/commission",锁客佣金
+
+        "Ishop/ILockguest/ILockguest",店铺锁客
+
+        "Ishop/Ifans/Ifans",我的粉丝
+
+        "Ishop/Ibill/Ibill",店铺账单
+
+        "Ishop/shopManagement/shopManagement",店铺管理
+
+        "Ishop/shopManagement/shopManagement_change/shopManagement_change",商家入驻
+
+        "Ishop/shopManagement/shopManagement_issue/shopManagement_issue",卡券发放
+
+        "lumainfo/lumainfo",关于鹿马
+
+        "lumainfo/lumaintroduce/lumaintroduce",关于鹿马介绍
+
+        "lumainfo/certificate/certificate",鹿马证件资质
+
+        "Ishop/wxStep/wxStep",了解微信实名认证
+
+        "Ishop/erweima/erweima",商家二维码
+
+        "Ishop/weidianLine_list_merchant/weidianLine_list_merchant",商城订单
+
+        "Ishop/weidianLine_merchant_item/weidianLine_merchant_item",订单详情
+
+        "Ishop/product_management/product_management",产品管理
+
+        "Ishop/commodity_management/commodity_management",商品管理
+
+        "Ishop/commodity_management/theEditor_ele/theEditor_ele",上传产品
+
+        "Ishop/commodity_management/theEditor_mall/theEditor_mall",上传商品
+        "Ishop/commodity_management/theEditor_hotel/theEditor_hotel"，酒店上传
+
+        "Ishop/comment_back/comment_back",店铺评论
+
+        "Ishop/delivery_orders_merchant/delivery_orders_merchant",外卖订单
+
+        "Ishop/hotel_refund/hotel_refund",退款处理
+
+        "Ishop/hotel_order_merchant/hotel_order_merchant",酒店订单
+
+        "topUp/topUp",在线充值
+
+        "coupons/coupons",我的卡卷
+
+        "partner/partner",合伙人中心
+
+        "partner/generalize_crew/generalize_crew",推广的合伙人
+
+        "partner/Cs_statistical/Cs_statistical",佣金统计
+
+        "partner/generalize_merchant/generalize_merchant",推广的商家
+
+        "I_bill/I_bill",我的账单
+
+        "set/set",设置管理
+
+        "set/new_address/new_address",添加新地址
+
+        "set/payment_code/payment_code",设置支付密码
+
+        "set/address_list/address_list",我的收货地址
+
+        "agent_center/agent_center",代理商中心
+
+        "Invite_friends/Invite_friends",邀请好友
+
+        "quick_payment/quick_payment",快捷支付
+
+        "evaluate_list/evaluate_list",我的评价
+
+        "express/express",快递发货
+
+        "top_up_success/top_up_success",充值成功
+
+        "Icooperation/Icooperation",我要合作
+
+        "Icooperation/join_investment/join_investment",招商加盟
+
+        "synopsisLuma/synopsisLuma"新关于鹿马
