@@ -1,0 +1,216 @@
+﻿.ax_default {
+  font-family:'Arial Normal', 'Arial', sans-serif;
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  letter-spacing:normal;
+  color:#333333;
+  vertical-align:none;
+  text-align:center;
+  line-height:normal;
+  text-transform:none;
+}
+.box_1 {
+}
+.placeholder {
+}
+.box_2 {
+}
+.horizontal_line {
+}
+.refs-webm-wechat {
+  font-family:'PingFang SC ', 'PingFang SC', sans-serif;
+  font-weight:400;
+  font-style:normal;
+}
+.text_link_mouse_over {
+}
+.text_link_mouse_down {
+}
+.refs-design-apple {
+  font-family:'PingFang SC ', 'PingFang SC', sans-serif;
+  font-weight:400;
+  font-style:normal;
+}
+._图片 {
+  color:#000000;
+}
+._形状 {
+  font-family:'PingFang SC ', 'PingFang SC', sans-serif;
+  font-weight:normal;
+  font-style:normal;
+  font-size:50px;
+  color:#FFFFFF;
+  text-align:center;
+  line-height:normal;
+}
+.box_3 {
+}
+.paragraph {
+  text-align:left;
+}
+.heading_2 {
+  font-family:'Arial Normal', 'Arial', sans-serif;
+  font-weight:bold;
+  font-style:normal;
+  font-size:24px;
+  text-align:left;
+}
+.heading_3 {
+  font-family:'Arial Normal', 'Arial', sans-serif;
+  font-weight:bold;
+  font-style:normal;
+  font-size:18px;
+  text-align:left;
+}
+.shape {
+}
+.image {
+}
+.button {
+}
+.primary_button {
+  color:#FFFFFF;
+}
+.link_button {
+  color:#169BD5;
+}
+._标题_1 {
+  font-family:'Arial Normal', 'Arial', sans-serif;
+  font-weight:bold;
+  font-style:normal;
+  font-size:32px;
+  text-align:left;
+}
+._标题_2 {
+  font-family:'Arial Normal', 'Arial', sans-serif;
+  font-weight:bold;
+  font-style:normal;
+  font-size:24px;
+  text-align:left;
+}
+._标题_3 {
+  font-family:'Arial Normal', 'Arial', sans-serif;
+  font-weight:bold;
+  font-style:normal;
+  font-size:18px;
+  text-align:left;
+}
+._标题_4 {
+  font-family:'Arial Normal', 'Arial', sans-serif;
+  font-weight:bold;
+  font-style:normal;
+  font-size:14px;
+  text-align:left;
+}
+._标题_5 {
+  font-family:'Arial Normal', 'Arial', sans-serif;
+  font-weight:bold;
+  font-style:normal;
+  text-align:left;
+}
+._标题_6 {
+  font-family:'Arial Normal', 'Arial', sans-serif;
+  font-weight:bold;
+  font-style:normal;
+  font-size:10px;
+  text-align:left;
+}
+._文本 {
+  text-align:left;
+}
+._表单提示 {
+  color:#999999;
+}
+._表单禁用 {
+}
+._流程形状 {
+}
+.line {
+}
+.text_link {
+  color:#0000FF;
+}
+.arrow {
+}
+.text_field {
+  color:#000000;
+  text-align:left;
+}
+.text_area {
+  color:#000000;
+  text-align:left;
+}
+.label {
+  font-size:14px;
+  text-align:left;
+}
+.droplist {
+  color:#000000;
+  text-align:left;
+}
+.list_box {
+  color:#000000;
+  text-align:left;
+}
+.form_disabled {
+}
+._图像 {
+}
+.checkbox {
+  text-align:left;
+}
+.radio_button {
+  text-align:left;
+}
+.tree_node {
+  text-align:left;
+}
+.table_cell {
+}
+._线段 {
+}
+.menu_item {
+}
+.connector {
+}
+.sticky_1 {
+  text-align:left;
+}
+.sticky_2 {
+  text-align:left;
+}
+.marker {
+  color:#FFFFFF;
+}
+.form_hint {
+  color:#999999;
+}
+.ellipse {
+}
+.icon {
+}
+._一级标题 {
+  font-family:'Arial Normal', 'Arial', sans-serif;
+  font-weight:bold;
+  font-style:normal;
+  font-size:32px;
+  text-align:left;
+}
+.refs-chart-data {
+  font-family:'Arial Normal', 'Arial', sans-serif;
+  font-weight:400;
+  font-style:normal;
+}
+.shape1 {
+  font-family:'PingFang SC ', 'PingFang SC', sans-serif;
+  font-weight:400;
+  font-style:normal;
+  font-size:12px;
+  color:#FFFFFF;
+  text-align:center;
+  line-height:normal;
+}
+.flow_shape {
+}
+textarea, select, input, button { outline: none; }
